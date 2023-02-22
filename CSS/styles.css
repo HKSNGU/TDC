@@ -1,0 +1,80 @@
+body {
+            background-image: url("F:\WebDev/T.D.C/IMAGES/Background.jpg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100%;
+            margin: 0rem;
+}
+
+nav {
+    background-image: linear-gradient(to right, #A149FA, #37E2D5);
+    opacity: 70%;
+}
+
+a {
+    text-decoration: none;
+    color: aqua;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #A149FA;
+}
+
+ul {
+    padding: 1rem 0rem;
+    margin: 0rem;
+}
+
+#nav-brand {
+    list-style-type: none;
+    font-weight: bold;
+    color: #590696;
+    font-size: x-large;
+    display: inline;
+    padding-left: 2em;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.nav-link {
+    list-style-type: none;
+    float: right;
+    padding: 0.2em 2em 0 0;
+    font-size: large;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.header-text {
+    font-size: 4em;
+    color: #fff;
+    margin-top: 2.5em;
+    margin-left: 1.5em;
+    font-family: 'Exo', sans-serif;
+    text-shadow: 0 0 7px #fff;
+}
+
+.button {
+    margin-left: 4em;
+    text-align: left;
+}
+
+.btn {
+    background: #37E2D5;
+    background-image: linear-gradient(to bottom, #37E2D5, #37E2D5);
+    border-radius: 25px;
+    text-shadow: 1px 1px 4px #fff;
+    font-family: 'Orbitron', Arial;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    margin-left: 2em;
+    border-style: none;
+  }
+  
+  .btn:hover {
+    background: #37E2D5;
+    background-image: linear-gradient(to bottom, #37E2D5, #05fae6);
+    text-decoration: none;
+  }
